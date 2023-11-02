@@ -1,0 +1,53 @@
+{
+  "name": "piral-pilet-home",
+  "version": "1.0.7",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "piral-cli": "1.0.2",
+    "piral-cli-webpack5": "1.0.2",
+    "piral-shell": "file:../piral-shell-demo/dist/emulator/piral-shell-1.0.4.tgz",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
+    "tslib": "2.6.0",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade",
+    "upload": "pilet publish --url http://164.52.93.162:30024/triathonlab/api/v1/pilet --api-key ff948eba858cbd864e2ec9ba8d5cd293d1235dafc3927b733630fed369856289 --fresh"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "importmap": {
+    "imports": {},
+    "inherit": [
+      "piral-shell",
+      "piral-shell-demo",
+      "piral-shell-demo-conventional_config",
+      "piral-shell-demo-dynamic_config"
+    ]
+  },
+  "source": "src/index.tsx",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@web3-react/core": "^6.0.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "ethers": "^5.0.7",
+    "framer-motion": "^6",
+    "styled-components": "^6.0.6",
+    "swiper": "4.5.0"
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920" transform="translate(-1319.000000, -3434.000000)">
+            <g id="编组-38" transform="translate(1161.000000, 3414.000000)">
+                <g id="编组-36" transform="translate(48.000000, 15.000000)">
+                    <g id="编组-51" transform="translate(110.000000, 5.000000)">
+                        <rect id="矩形" x="0" y="0" width="12" height="12"></rect>
+                        <g id="编组-35" transform="translate(2.000000, 3.000000)" stroke="#111111" stroke-width="1.5">
+                            <polyline id="路径" points="-4.85056439e-12 0 8 0 8 8"></polyline>
+                            <line x1="8" y1="0" x2="0" y2="8" id="路径-11" fill='currentcolor'></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
